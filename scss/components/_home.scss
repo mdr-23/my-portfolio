@@ -1,0 +1,22 @@
+/* HOME */
+.presentation-section {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    right: 20%;
+    }
+
+.my-name{
+    color: $green !important;
+}
+
+.cv-link{
+    color: $green !important;
+    text-transform: uppercase !important;
+}
+
+.cv-link:hover{
+    color: $green !important;
+    text-decoration: underline !important;
+    text-transform: uppercase !important;
+}

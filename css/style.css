@@ -1,0 +1,415 @@
+.btn-canvas-open {
+  background-color: transparent !important;
+  border: none !important;
+  color: #58724f !important;
+  font-size: 26px !important;
+  margin-top: 100px;
+}
+
+.btn-canvas-close {
+  background-color: transparent !important;
+  border: none !important;
+  color: #000 !important;
+  font-size: 22px !important;
+  margin-top: 100px !important;
+}
+
+.offcanvas-nav {
+  background-color: #58724f !important;
+}
+
+ul {
+  list-style: none !important;
+}
+
+a {
+  color: #000 !important;
+  font-family: "Newsreader", sans-serif;
+  font-weight: lighter !important;
+  font-size: 22px !important;
+  text-decoration: none !important;
+  text-transform: uppercase !important;
+  position: relative !important;
+  top: 150% !important;
+}
+
+.a-ml {
+  margin-left: 30px !important;
+}
+
+.a-mr {
+  margin-right: 30px !important;
+}
+
+a:hover {
+  color: #d6d6d6 !important;
+}
+
+.social {
+  margin-top: 15px !important;
+}
+
+/* HOME */
+.presentation-section {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  right: 20%;
+}
+
+.my-name {
+  color: #58724f !important;
+}
+
+.cv-link {
+  color: #58724f !important;
+  text-transform: uppercase !important;
+}
+
+.cv-link:hover {
+  color: #58724f !important;
+  text-decoration: underline !important;
+  text-transform: uppercase !important;
+}
+
+.accordion {
+  --bs-accordion-border-color: none !important;
+  --bs-accordion-btn-icon: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23d6d6d6'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+  --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23d6d6d6'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") !important;
+}
+
+.accordion-item {
+  background-color: #141414 !important;
+  border-top: none !important;
+  border-bottom: double #58724f 3px !important;
+  border-right: none !important;
+  border-left: none !important;
+  margin: 0 120px;
+}
+
+.accordion-title {
+  margin-left: 220px !important;
+  margin-top: 15px !important;
+}
+
+.accordion-button {
+  background-color: #141414 !important;
+  border-top: none !important;
+}
+
+.accordion-button:hover {
+  background-color: #101010 !important;
+  border-top: none !important;
+}
+
+.p-works {
+  margin: 0 !important;
+  font-size: 20px !important;
+}
+
+.p-hobbies {
+  font-size: 20px !important;
+}
+
+.btn-details {
+  background-color: #000;
+  border: #58724f solid 1px;
+  border-radius: 5px;
+  padding: 0px 15px;
+  color: #58724f !important;
+  margin-top: 10px;
+  text-transform: none !important;
+}
+
+.btn-details:hover {
+  color: #3e5037 !important;
+  border: #3e5037 solid 1px;
+}
+
+.modal {
+  --bs-modal-width: 80% !important;
+}
+
+.modal-header {
+  border-bottom: #000 1px solid;
+}
+
+.modal-content {
+  background-color: #58724f !important;
+}
+
+.modal-title {
+  font-size: 30px !important;
+  margin-top: 12px !important;
+}
+
+.btn-modal {
+  background-color: #58724f;
+  border: #101010 solid 1px;
+  border-radius: 5px;
+  padding: 0px 15px;
+  color: #101010 !important;
+  margin-top: 10px;
+  text-transform: none !important;
+}
+
+.btn-modal:hover {
+  color: #000 !important;
+  border: #000 solid 1px !important;
+}
+
+.p-modal {
+  font-size: 20px !important;
+}
+
+.modal-list {
+  /*     --list-icon-fontawesome: url(<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"/></svg>);*/
+  list-style: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512' fill='%23d6d6d6'%3e%3cpath d='M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z'/%3e%3c/svg%3e") !important;
+  color: #d6d6d6 !important;
+  font-family: "Newsreader", sans-serif;
+  font-weight: lighter !important;
+  font-size: 20px !important;
+}
+
+.modal-ol {
+  color: #d6d6d6 !important;
+  font-family: "Newsreader", sans-serif;
+  font-weight: lighter !important;
+  font-size: 20px !important;
+}
+
+.modal-footer {
+  border-top: #000 1px solid !important;
+}
+
+.my-works-title {
+  margin-left: 200px;
+}
+
+.card {
+  background-color: #141414 !important;
+  border-color: #58724f !important;
+  border-style: double !important;
+  border-width: 3px;
+}
+
+.card-title {
+  color: #58724f !important;
+  font-family: "Newsreader", sans-serif;
+  font-weight: bolder !important;
+  font-size: 26px !important;
+}
+
+.card-subtitle {
+  color: #d6d6d6 !important;
+  font-family: "Newsreader", sans-serif;
+  font-weight: bolder !important;
+  font-size: 18px !important;
+}
+
+.card-text {
+  font-size: 16px !important;
+}
+
+.card-link {
+  font-size: 14px !important;
+  color: #58724f !important;
+  text-transform: uppercase !important;
+}
+
+.btn-works {
+  background-color: #000;
+  color: #d6d6d6 !important;
+  border: #58724f solid 1px;
+  border-radius: 5px;
+  padding: 0px 15px 3px 15px !important;
+}
+
+.btn-works:hover {
+  background-color: #101010 !important;
+  color: #d6d6d6 !important;
+  border: #58724f solid 1px;
+  border-radius: 5px;
+  padding: 0px 15px 3px 15px !important;
+}
+
+/* CONTACT */
+.li-contact {
+  color: #d6d6d6 !important;
+  text-transform: none !important;
+}
+
+.li-contact:hover {
+  color: #58724f !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000 !important;
+}
+
+hr {
+  border-top: #58724f 3px double !important;
+  margin: 0 150px !important;
+}
+
+h1 {
+  color: #d6d6d6 !important;
+  font-family: "Newsreader", sans-serif;
+  font-weight: bolder !important;
+  font-size: 40px !important;
+}
+
+h2 {
+  color: #d6d6d6 !important;
+  font-family: "Newsreader", sans-serif;
+  font-weight: bolder !important;
+  font-size: 40px !important;
+}
+
+h3 {
+  color: #d6d6d6 !important;
+  font-family: "Newsreader", sans-serif;
+  font-weight: bolder !important;
+  font-size: 16px !important;
+}
+
+h4 {
+  color: #58724f !important;
+  font-family: "Newsreader", sans-serif;
+  font-weight: bolder !important;
+  font-size: 28px !important;
+}
+
+p {
+  color: #d6d6d6 !important;
+  font-family: "Newsreader", sans-serif;
+  font-weight: lighter !important;
+  font-size: 22px !important;
+}
+
+/* MOBILE QUERIES */
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 30px !important;
+  }
+
+  h2 {
+    font-size: 30px !important;
+  }
+
+  h3 {
+    font-size: 10px !important;
+  }
+
+  h4 {
+    font-size: 22px !important;
+  }
+
+  p {
+    font-size: 16px !important;
+  }
+
+  /* HEADER */
+  .btn-canvas-open {
+    font-size: 22px !important;
+    margin-top: 50px !important;
+  }
+
+  .btn-canvas-close {
+    background-color: transparent !important;
+    border: none !important;
+    color: #000 !important;
+    font-size: 15px !important;
+    margin-top: 10px !important;
+  }
+
+  a {
+    font-size: 15px !important;
+  }
+
+  .a-ml {
+    margin-left: 15px !important;
+  }
+
+  .a-mr {
+    margin: 15px !important;
+  }
+
+  /* HOME */
+  .presentation-section {
+    position: absolute;
+    top: 20%;
+  }
+
+  /* BACKGROUND */
+  .accordion-item {
+    margin: 0 0;
+  }
+
+  .accordion-title {
+    margin-left: 0px !important;
+  }
+
+  .p-works {
+    margin: 0 !important;
+    font-size: 16px !important;
+  }
+
+  .p-hobbies {
+    font-size: 16px !important;
+  }
+
+  .modal {
+    --bs-modal-width: 80% !important;
+  }
+
+  .modal-header {
+    border-bottom: #000 1px solid;
+  }
+
+  .modal-content {
+    background-color: #58724f !important;
+  }
+
+  .modal-title {
+    font-size: 30px !important;
+    margin-top: 15px !important;
+  }
+
+  .p-modal {
+    font-size: 16px !important;
+  }
+
+  .modal-list {
+    /*     --list-icon-fontawesome: url(<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"/></svg>);*/
+    list-style: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512' fill='%23d6d6d6'%3e%3cpath d='M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z'/%3e%3c/svg%3e") !important;
+    color: #d6d6d6 !important;
+    font-family: "Newsreader", sans-serif;
+    font-weight: lighter !important;
+    font-size: 20px !important;
+  }
+
+  .modal-ol {
+    color: #d6d6d6 !important;
+    font-family: "Newsreader", sans-serif;
+    font-weight: lighter !important;
+    font-size: 20px !important;
+  }
+
+  .modal-footer {
+    border-top: #000 1px solid !important;
+  }
+
+  /* MY WORKS */
+  .my-works-title {
+    margin-left: 5px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

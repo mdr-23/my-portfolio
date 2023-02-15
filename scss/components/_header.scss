@@ -1,0 +1,50 @@
+.btn-canvas-open {
+    background-color: transparent !important;
+    border: none !important;
+    color: $green !important;
+    font-size: 26px !important;
+    margin-top: 100px;
+    }
+
+.btn-canvas-close {
+    background-color: transparent !important;
+    border: none !important;
+    color: $black !important;
+    font-size: 22px !important;
+    margin-top: 100px !important;
+    }
+
+.offcanvas-nav{
+    background-color: $green !important;
+}
+
+ul{
+    list-style: none!important;
+}
+
+a{
+    color: $black !important;
+    font-family: 'Newsreader', sans-serif;
+    font-weight: lighter !important;
+    font-size: 22px !important;
+    text-decoration: none !important;
+    text-transform: uppercase !important;
+    position: relative !important;
+    top: 150% !important;
+}
+
+.a-ml{
+    margin-left: 30px !important;
+}
+
+.a-mr{
+    margin-right: 30px !important;
+}
+
+a:hover{
+    color: $white !important;
+}
+
+.social{
+    margin-top: 15px !important;
+}

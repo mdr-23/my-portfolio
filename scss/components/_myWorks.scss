@@ -1,0 +1,50 @@
+.my-works-title{
+    margin-left: 200px;
+}
+
+.card{
+    background-color: $grey !important;
+    border-color: $green !important;
+    border-style: double !important;
+    border-width: 3px;
+}
+
+.card-title{
+    color: $green !important;
+    font-family: 'Newsreader', sans-serif;
+    font-weight: bolder !important;
+    font-size: 26px !important;
+}
+
+.card-subtitle{
+    color: $white !important;
+    font-family: 'Newsreader', sans-serif;
+    font-weight: bolder !important;
+    font-size: 18px !important;
+}
+
+.card-text{
+    font-size: 16px !important;
+}
+
+.card-link{
+    font-size: 14px !important;
+    color: $green !important;
+    text-transform: uppercase !important;
+}
+
+.btn-works{
+    background-color: $black;
+    color: $white !important;
+    border: $green solid 1px;
+    border-radius: 5px;
+    padding: 0px 15px 3px 15px !important;
+}
+
+.btn-works:hover{
+    background-color: $dark-grey !important;
+    color: $white !important;
+    border: $green solid 1px;
+    border-radius: 5px;
+    padding: 0px 15px 3px 15px !important;
+}
