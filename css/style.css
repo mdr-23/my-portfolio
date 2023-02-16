@@ -296,23 +296,23 @@ p {
 /* MOBILE QUERIES */
 @media only screen and (max-width: 480px) {
   h1 {
-    font-size: 30px !important;
+    font-size: 32px !important;
   }
 
   h2 {
-    font-size: 30px !important;
+    font-size: 32px !important;
   }
 
   h3 {
-    font-size: 10px !important;
+    font-size: 14px !important;
   }
 
   h4 {
-    font-size: 22px !important;
+    font-size: 26px !important;
   }
 
   p {
-    font-size: 16px !important;
+    font-size: 18px !important;
   }
 
   /* HEADER */
@@ -330,7 +330,7 @@ p {
   }
 
   a {
-    font-size: 15px !important;
+    font-size: 18px !important;
   }
 
   .a-ml {
@@ -345,6 +345,8 @@ p {
   .presentation-section {
     position: absolute;
     top: 20%;
+    right: 5%;
+    left: 5%;
   }
 
   /* BACKGROUND */
@@ -358,11 +360,11 @@ p {
 
   .p-works {
     margin: 0 !important;
-    font-size: 16px !important;
+    font-size: 18px !important;
   }
 
   .p-hobbies {
-    font-size: 16px !important;
+    font-size: 18px !important;
   }
 
   .modal {
@@ -378,12 +380,12 @@ p {
   }
 
   .modal-title {
-    font-size: 30px !important;
+    font-size: 32px !important;
     margin-top: 15px !important;
   }
 
   .p-modal {
-    font-size: 16px !important;
+    font-size: 18px !important;
   }
 
   .modal-list {
@@ -392,14 +394,14 @@ p {
     color: #d6d6d6 !important;
     font-family: "Newsreader", sans-serif;
     font-weight: lighter !important;
-    font-size: 20px !important;
+    font-size: 22px !important;
   }
 
   .modal-ol {
     color: #d6d6d6 !important;
     font-family: "Newsreader", sans-serif;
     font-weight: lighter !important;
-    font-size: 20px !important;
+    font-size: 22px !important;
   }
 
   .modal-footer {
