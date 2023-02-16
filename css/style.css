@@ -318,7 +318,7 @@ p {
   /* HEADER */
   .btn-canvas-open {
     font-size: 22px !important;
-    margin-top: 80px !important;
+    margin-top: 50px !important;
   }
 
   .btn-canvas-close {
@@ -326,7 +326,7 @@ p {
     border: none !important;
     color: #000 !important;
     font-size: 15px !important;
-    margin-top: 10px !important;
+    margin-top: 50px !important;
   }
 
   a {
